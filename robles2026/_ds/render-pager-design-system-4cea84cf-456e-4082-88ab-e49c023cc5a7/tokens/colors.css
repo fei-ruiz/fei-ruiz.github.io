@@ -1,0 +1,56 @@
+:root{
+/* ink — warm near-black scale (maloot #191313, operate #0c0e0e/#1a191a, perimeterwatch #292626) */
+--ink-950:#100d0b;
+--ink-900:#191313;
+--ink-800:#221d1a;
+--ink-700:#3a332f;
+--ink-500:#6c655e;
+--ink-300:#9a938a;
+/* paper — warm light neutrals (maloot #f1f1f1/#efeeec, perimeterwatch #cccccc/#e5e4e1) */
+--paper-50:#f8f7f4;
+--paper-100:#f1f0ec;
+--paper-200:#e5e4e1;
+--paper-300:#d6d5cf;
+--paper-400:#cccac2;
+--paper-500:#a8a99e;
+/* sage — muted green surfaces (operate #85c093/#117025, maloot #a8a99e overlap) */
+--sage-200:#cfe3d1;
+--sage-400:#85c093;
+--sage-500:#5f9a70;
+--sage-700:#2f6a3d;
+--sage-900:#172806;
+/* signal accent — perimeterwatch alarm red-orange, the primary brand accent */
+--accent-100:#fbe1da;
+--accent-300:#f0947f;
+--accent-500:#e9503b;
+--accent-600:#c93f2c;
+--accent-700:#9e3021;
+/* electric accent — otherlife neon, secondary/rare accent for digital-forward moments */
+--electric-400:#7dffa0;
+--electric-500:#33ff66;
+--electric-900:#172806;
+/* pure mono — oliver gareis strict black/white inversions */
+--mono-black:#000000;
+--mono-white:#ffffff;
+/* rare signal dot (oliver gareis) + violet badge (operate), used at <1% of a layout */
+--signal-green:#00c410;
+--violet-500:#433787;
+
+/* semantic aliases */
+--bg-page:var(--paper-50);
+--bg-surface:var(--paper-100);
+--bg-surface-alt:var(--sage-200);
+--bg-inverted:var(--ink-900);
+--bg-inverted-alt:var(--sage-900);
+--text-primary:var(--ink-900);
+--text-secondary:var(--ink-500);
+--text-inverted:var(--paper-50);
+--text-inverted-muted:var(--paper-400);
+--border-subtle:var(--paper-300);
+--border-inverted:var(--ink-700);
+--accent:var(--accent-500);
+--accent-strong:var(--accent-600);
+--accent-tint:var(--accent-100);
+--accent-electric:var(--electric-500);
+--accent-electric-ink:var(--electric-900);
+}
